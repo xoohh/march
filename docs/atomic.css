@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "SF Pro Text", "Apple SD Gothic Neo", -apple-system, "Noto Sans CJK KR", "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: none;
+}
+
+button,
+input,
+textarea {
+  text-rendering: inherit;
+  border: initial;
+  outline: initial;
+  color: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  text-transform: inherit;
+  text-indent: inherit;
+  text-shadow: inherit;
+}
+
+button, input {
+  display: flex;
+  background: transparent;
+}
+
+button {
+  text-align: center;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+
+html { font-size: 10px }
+body, html { min-height: 100%; }
+
+/* FLEXBOX */
+.hbox, .hbox--top, .hbox--bottom, .hbox--stretch, .hbox--full, .hbox--right {display: flex;flex-direction: row;}
+
+.hbox, .hbox--right { align-items: center }
+
+.hbox--top {align-items: flex-start }
+
+.hbox--bottom {align-items: flex-end }
+
+.hbox--full {align-items: stretch }
+
+.hbox--right {justify-content: flex-end }
+
+.vbox { display: flex; flex-direction: column; align-items: stretch }
+
+.vbox--left { display: flex; flex-direction: column; align-items: flex-start }
+
+.vbox--right { display: flex; flex-direction: column; align-items: flex-end }
+
+.vbox--full { display: flex; flex-direction: column; align-items: stretch; justify-content: stretch }
+
+.vbox--center { display: flex; flex-direction: column; align-items: center; }
+
+.pack { display: flex; justify-content: center; align-items: center }
+
+.space-between { justify-content: space-between }
+
+.space-around { justify-content: space-around }
+
+.space-evenly { justify-content: space-evenly }
+
+.flex { flex: 1 }
+
+.flex-wrap { flex-wrap: wrap }
+
+
+/* POSITIONING */
+.layer { position: absolute; top: 0; right: 0; left: 0; bottom: 0 }
+
+.layer--top { position: absolute; top: 0; left: 0; right: 0 }
+
+.layer--right { position: absolute; top: 0; right: 0; bottom: 0 }
+
+.layer--bottom { position: absolute; bottom: 0; left: 0; right: 0 }
+
+.layer--left { position: absolute; top: 0; left: 0; bottom: 0 }
+
+.layer--top-left { position: absolute; top: 0; left: 0 }
+
+.layer--top-right { position: absolute; top: 0; right: 0 }
+
+.layer--bottom-left { position: absolute; bottom: 0; left: 0 }
+
+.layer--bottom-right { position: absolute; bottom: 0; right: 0 }
+
+.absolute { position: absolute }
+
+.relative { position: relative }
+
+.fixed { position: fixed }
+
+.sticky { position: sticky; top: 0 }
+
+
+/* DISPLAY */
+.contain { background-size: contain; object-fit: contain; background-position: center; }
+
+.cover { background-size: cover; object-fit: cover; background-position: center; }
+
+
+/* FONT & TEXT */
+.text-left { text-align: left }
+
+.text-center { text-align: center }
+
+.text-right { text-align: right }
+
+.text-justify { text-align: justify }
+
+.pre, .pre-wrap { white-space: pre-wrap }
+
+
+/* ETC */
+.circle { border-radius: 100%; overflow: hidden }
+
+.pointer-events-none { pointer-events: none }
+
+.pointer-events-auto { pointer-events: auto }
+
+.user-select-none { user-select: none; -webkit-user-select: none }
+
+.outline { outline: 1px solid #4f80ff }
+
+.guide,
+.guide * { outline: 1px solid #4f80ff }
+
+
+/* 간격 */
+space { display: block; pointer-events: none; visibility: hidden }
+
+space[size="0"] { padding: 0 }
+
+space[size="0.2"] { padding: 0.1rem }
+
+space[size="0.4"] { padding: 0.2rem }
+
+space[size="0.6"] { padding: 0.3rem }
+
+space[size="0.8"] { padding: 0.4rem }
+
+space[size="1"] { padding: 0.5rem }
+
+space[size="1.2"] { padding: 0.6rem }
+
+space[size="1.4"] { padding: 0.7rem }
+
+space[size="1.6"] { padding: 0.8rem }
+
+space[size="1.8"] { padding: 0.9rem }
+
+space[size="2"] { padding: 1rem }
+
+space[size="2.2"] { padding: 1.1rem }
+
+space[size="2.4"] { padding: 1.2rem }
+
+space[size="2.6"] { padding: 1.3rem }
+
+space[size="2.8"] { padding: 1.4rem }
+
+space[size="3"] { padding: 1.5rem }
+
+space[size="3.2"] { padding: 1.6rem }
+
+space[size="3.4"] { padding: 1.7rem }
+
+space[size="3.6"] { padding: 1.8rem }
+
+space[size="3.8"] { padding: 1.9rem }
+
+space[size="4"] { padding: 2rem }
+
+space[size="4.2"] { padding: 2.1rem }
+
+space[size="4.4"] { padding: 2.2rem }
+
+space[size="4.6"] { padding: 2.3rem }
+
+space[size="4.8"] { padding: 2.4rem }
+
+space[size="5"] { padding: 2.5rem }
+
+space[size="5.2"] { padding: 2.6rem }
+
+space[size="5.4"] { padding: 2.7rem }
+
+space[size="5.6"] { padding: 2.8rem }
+
+space[size="5.8"] { padding: 2.9rem }
+
+space[size="6"] { padding: 3rem }
+
+space[size="6.2"] { padding: 3.1rem }
+
+space[size="6.4"] { padding: 3.2rem }
+
+space[size="6.6"] { padding: 3.3rem }
+
+space[size="6.8"] { padding: 3.4rem }
+
+space[size="7"] { padding: 3.5rem }
+
+space[size="7.2"] { padding: 3.6rem }
+
+space[size="7.4"] { padding: 3.7rem }
+
+space[size="7.6"] { padding: 3.8rem }
+
+space[size="7.8"] { padding: 3.9rem }
+
+space[size="8"] { padding: 4rem }
+
+space[size="8.2"] { padding: 4.1rem }
+
+space[size="8.4"] { padding: 4.2rem }
+
+space[size="8.6"] { padding: 4.3rem }
+
+space[size="8.8"] { padding: 4.4rem }
+
+space[size="9"] { padding: 4.5rem }
+
+space[size="9.2"] { padding: 4.6rem }
+
+space[size="9.4"] { padding: 4.7rem }
+
+space[size="9.6"] { padding: 4.8rem }
+
+space[size="9.8"] { padding: 4.9rem }
+
+.fill-current svg path { fill: currentColor; }

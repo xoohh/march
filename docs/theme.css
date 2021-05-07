@@ -1,0 +1,31 @@
+:root {
+  --timeline-height: 15px;
+  --border-color: #e7eaef;
+  --yellow: #feec00;
+  --yellow-dark: #fd0;
+
+  --focus-border: rgba(0, 128, 255, .18);
+
+  /* z-index */
+  --popup: 9999;
+  --z-index--tooltip: 99999;
+
+  --ui-primary: #009BE0;
+  --ui-secondary: #FF5D11;
+  --ui-primary-highlight: #D4FFF6;
+  --ui-secondary-highlight: #F8FFB5;
+
+  --black: #000;
+  --dark-gray: #999;
+  --light-gray: #ccc;
+  --white: #fff;
+}
+
+.shadow-mid {
+  box-shadow: 0px 0px 2px #d3e0ed, 0px 6px 11px rgba(27, 29, 31, 0.05), 0px 10px 15px rgba(27, 29, 31, 0.05), 0px 0px 1px rgba(27, 29, 31, 0.25);
+}
+
+.shadow-lg {
+  box-shadow: 0px 0px 1px rgba(27, 29, 31, 0.2), 0px 10px 25px rgba(0, 0, 0, 0.1), 0px 5px 10px rgba(0, 0, 0, 0.04);
+}
+
