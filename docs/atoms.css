@@ -1,48 +1,100 @@
-.b\(--dark-gray\){border: 1px solid var(--dark-gray);}
 .b\(\#000\){border: 1px solid #000;}
 .b\(\#ccc\){border: 1px solid #ccc;}
+.b\(\#fff\){border: 1px solid #fff;}
+.bg\(--black\){background: var(--black);}
 .bg\(--dark-gray\){background: var(--dark-gray);}
+.bg\(--light-gray\){background: var(--light-gray);}
+.bg\(--ui-primary-gradient\){background: var(--ui-primary-gradient);}
 .bg\(--white\){background: var(--white);}
+.bg\(\#009be0\){background: #009be0;}
+.bg\(\#333\.04\){background: rgba(51,51,51,.04);}
+.bg\(\#999\){background: #999;}
+.bg\(\#b3ddef\){background: #b3ddef;}
+.bg\(\#ff5d11\){background: #ff5d11;}
+.bg\(\#ffc3a7\){background: #ffc3a7;}
 .bg\(\#fff\){background: #fff;}
 .block{display:block; width:100%;}
 .bold{font-weight: bold;}
 .br\(\#000\){border-right: 1px solid #000;}
 .br\(\#ccc\){border-right: 1px solid #ccc;}
-.c\(--dark-gray\){color: var(--dark-gray);}
+.c\(--black\){color: var(--black);}
+.c\(--light-gray\){color: var(--light-gray);}
+.c\(--ui-primary\){color: var(--ui-primary);}
 .c\(--white\){color: var(--white);}
+.c\(\#000\){color: #000;}
+.c\(\#009be0\){color: #009be0;}
+.c\(\#333\){color: #333;}
+.c\(\#999\){color: #999;}
+.c\(\#ccc\){color: #ccc;}
+.c\(\#fff\){color: #fff;}
 .clip{overflow: hidden;}
 .flex{flex:1;}
 .font\(11\){font-size: 11px;}
 .font\(12\){font-size: 12px;}
-.font\(14px\){font-size: 14px;}
+.font\(12\/20\){font-size: 12px;line-height: 20px;}
+.font\(14\){font-size: 14px;}
+.font\(16\){font-size: 16px;}
+.font\(16\/20\){font-size: 16px;line-height: 20px;}
+.gap\(2\){gap: 2px;}
+.gap\(4\){gap: 4px;}
 .h\(100\%\){height: 100%;}
-.h\(18\){height: 18px;}
-.h\(20\){height: 20px;}
-.h\(32\){height: 32px;}
+.h\(22\){height: 22px;}
+.h\(28\){height: 28px;}
+.h\(2\){height: 2px;}
+.h\(36\){height: 36px;}
 .h\(36px\){height: 36px;}
+.h\(42\){height: 42px;}
+.h\(56\){height: 56px;}
+.h\(72\){height: 72px;}
+.hbox\(top\){display:flex; align-items:center;}
 .hbox{display:flex; align-items:center;}
+.hover\:bg\(--ui-primary\):hover { background: var(--ui-primary); }
 .hover\:bg\(\#000\):hover { background: #000; }
 .hover\:c\(\#fff\):hover { color: #fff; }
 .last-child\:b\(none\):last-child { border: none; }
+.m\(auto\){margin: auto;}
 .medium{font-weight: 500;}
+.min-h\(500\){min-height: 500px;}
+.min-w\(70\){min-width: 70px;}
 .nowrap{white-space: nowrap;}
-.p\(0\/12px\){padding: 0 12px;}
-.p\(0\/2px\){padding: 0 2px;}
+.p\(0\/16\){padding: 0 16px;}
+.p\(0\/4\){padding: 0 4px;}
+.p\(2\/4\){padding: 2px 4px;}
+.p\(2\/8\){padding: 2px 8px;}
+.p\(4\){padding: 4px;}
+.p\(4\/0\){padding: 4px 0;}
+.p\(4\/8\){padding: 4px 8px;}
 .p\(4px\){padding: 4px;}
 .p\(5\){padding: 5px;}
+.p\(6\){padding: 6px;}
 .p\(8\){padding: 8px;}
+.p\(8\/16\){padding: 8px 16px;}
 .pack{display:flex; flex-flow: inherit; align-items:center; justify-content:center;}
+.pl\(8\){padding-left: 8px;}
+.placeholder\:c\(--light-gray\)::placeholder { color: var(--light-gray); }
 .primary.\.primary\:bg\(--ui-primary\),.primary .\.primary\:bg\(--ui-primary\) { background: var(--ui-primary); }
+.r\(12\){border-radius: 12px;}
+.r\(21\){border-radius: 21px;}
 .r\(36px\){border-radius: 36px;}
-.r\(5\){border-radius: 5px;}
-.r\(5px\){border-radius: 5px;}
+.r\(4\){border-radius: 4px;}
 .scroll-y{overflow-y: scroll;}
 .secondary.\.secondary\:bg\(--ui-secondary\),.secondary .\.secondary\:bg\(--ui-secondary\) { background: var(--ui-secondary); }
+.selected.\.selected\:bg\(--ui-primary\),.selected .\.selected\:bg\(--ui-primary\) { background: var(--ui-primary); }
 .selected.\.selected\:bg\(\#000\),.selected .\.selected\:bg\(\#000\) { background: #000; }
 .selected.\.selected\:c\(\#fff\),.selected .\.selected\:c\(\#fff\) { color: #fff; }
-.uppercase{text-transform: uppercase;}
+.space\(16\){padding: 8px;}
+.space\(24\){padding: 12px;}
+.space\(32\){padding: 16px;}
+.space\(4\){padding: 2px;}
+.space\(8\){padding: 4px;}
+.underline{text-decoration: underline;}
+.vbox\(\/left\){display:flex; flex-flow: column; align-items:stretch;}
+.vbox\(center\/left\){display:flex; flex-flow: column; align-items:stretch;}
+.vbox{display:flex; flex-flow: column; align-items:stretch;}
 .w\(100\%\){width: 100%;}
 .w\(200\){width: 200px;}
+.w\(375\){width: 375px;}
 .w\(375px\){width: 375px;}
+.w\(56\){width: 56px;}
 .w\(80\){width: 80px;}
-.w\(f\){width: 100%;}
+.w\(fill\){width: fill;}

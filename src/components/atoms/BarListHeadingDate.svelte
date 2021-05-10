@@ -1,7 +1,9 @@
-{#each ['', 'primary', 'secondary'] as status}
-  <div
-      class="hbox w(f) h(20) bg(--dark-gray) c(--white) p(0/12px) f(14) bold .primary:bg(--ui-primary) .secondary:bg(--ui-secondary) {status}">
-    <div class="flex">3월 27일</div>
-    <div class="text-right">수요일</div>
-  </div>
-{/each}
+<script>
+  const status = 'primary';
+</script>
+
+<div
+    class="h(22) r(4) bg(--dark-gray) regular c(--white) hbox p(2/4) hgap(8) .primary:bg(--ui-primary) .secondary:bg(--ui-secondary) {status}">
+  <div class="flex font(16)">3월 27일 토요일</div>
+  <div class="font(12) underline">Show All</div>
+</div>

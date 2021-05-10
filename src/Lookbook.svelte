@@ -25,8 +25,8 @@ $: currentFiles = files.filter(file => file.startsWith("/" + currentType))
     {/each}
   </div>
 
-  <div class="flex pack scroll-y">
-    <div class="w(375px)">
+  <div class="flex scroll-y">
+    <div class="w(375px) m(auto)">
       <Router {routes}/>
     </div>
   </div>
