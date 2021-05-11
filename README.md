@@ -12,6 +12,7 @@ https://www.figma.com/file/U9Q4wo4NkpJYbANKnhEjUX/PEI?node-id=0%3A1
 
 
 ---
+###KPT
 day1
 작업내용
 
